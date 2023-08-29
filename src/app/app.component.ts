@@ -10,7 +10,7 @@ export class AppComponent {
   title = 'CatchError';
 
   ngOnInit() {
-    of(1, 2, 3, 4, 5)
+    of(1, 2, 3, 4, 5,6)
       .pipe(
         map(n => {
           if (n === 4) {
