@@ -14,7 +14,7 @@ export class AppComponent {
       .pipe(
         map(n => {
           if (n === 4) {
-            throw 'four!';
+            throw 'foures!';
           }
           return n;
         }),
